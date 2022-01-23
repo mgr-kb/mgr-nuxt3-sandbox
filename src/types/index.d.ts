@@ -1,0 +1,3 @@
+type PostType = {
+  inputText: string;
+}
