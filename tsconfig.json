@@ -4,7 +4,8 @@
   "compilerOptions": {
     "types": [
       "node",
-      "nuxt-windicss"
+      "nuxt-windicss",
+      "@pinia/nuxt"
     ]
   },
 }

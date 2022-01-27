@@ -6,5 +6,5 @@ export default defineNuxtConfig({
     strict: true,
   },
   srcDir: 'src',
-  buildModules:['nuxt-windicss'],
+  buildModules:['nuxt-windicss', '@pinia/nuxt',],
 })

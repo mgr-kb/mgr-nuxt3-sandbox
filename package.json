@@ -20,5 +20,9 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.5",
     "typescript-eslint": "^0.0.1-alpha.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.1.8",
+    "pinia": "^2.0.10"
   }
 }

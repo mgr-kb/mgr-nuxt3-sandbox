@@ -24,10 +24,10 @@ const onSubmit = async () => {
     <h2 class="text-xl">Post Test</h2>
     <p>Result: {{ postResult }}</p>
     <form @submit.prevent="onSubmit">
-      <div>
-        <input type="text" v-model="inputText" placeholder="free text" class="px-4 py-2 bg-gray-200 rounded-lg" />
+      <div class="my-2">
+        <input v-model="inputText" type="text" placeholder="free text" class="px-4 py-2 bg-gray-200 rounded-lg" />
       </div>
-      <div>
+      <div class="my-2">
         <button class="bg-green-500 text-white px-4 py-2 rounded-xl" type="submit">post!</button>
       </div>
     </form>
