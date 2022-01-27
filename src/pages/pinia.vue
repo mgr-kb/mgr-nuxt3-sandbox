@@ -1,4 +1,5 @@
-<script setup lang="ts">import { useUserStore } from '../store/useUser';
+<script setup lang="ts">
+import { useUserStore } from '../store/useUser';
 const { getUser, birthday } = useUserStore()
 </script>
 

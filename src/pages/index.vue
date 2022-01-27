@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { useUserStore } from '../store/useUser';
+const { getUser } = useUserStore()
+</script>
 
 <template>
   <section class="flex flex-col justify-between">
@@ -8,6 +11,11 @@
     </div>
     <div class="mt-6">
       <PostsTest />
+    </div>
+    <div class="mt-6">
+      <p>
+        ユーザーの年齢は {{ getUser.age }}歳
+      </p>
     </div>
   </section>
 </template>
